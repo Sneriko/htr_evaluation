@@ -1,0 +1,1446 @@
+{
+    "file_name": "R0001308_00004.jpg",
+    "image_path": "/home/dgxuser/erik/projects/htr_evaluation/data/images/R0001308_00004.jpg",
+    "image_name": "R0001308_00004",
+    "label": "R0001308_00004",
+    "contains": [
+        {
+            "label": "R0001308_00004_textregion0",
+            "contains": [
+                {
+                    "text_result": {
+                        "texts": [
+                            "att gifwa för Wåre actioner reekenskap, så the som härtill förde ähre, som the effter affträdet ifrån Raga¬ Ragan"
+                        ],
+                        "scores": [
+                            0.955306461371524
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline0",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8628815412521362,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 520,
+                        "xmax": 3566,
+                        "ymax": 656
+                    },
+                    "polygon": "723,520 723,638 3566,656 3566,563 3467,520"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "mentet förde warda, och nyttia allden Rätt, frijheet och Independence som Gß effter Naturen tillstår,"
+                        ],
+                        "scores": [
+                            0.9683106731080316
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline1",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8225694298744202,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 619,
+                        "xmax": 3566,
+                        "ymax": 780
+                    },
+                    "polygon": "698,650 698,737 3566,780 3523,669 2810,662 2755,619 2618,669 2433,619 2253,656 1918,656 1875,619 1745,662 1553,619"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "och fördenskull för alle befallningar och pålägor wara exempta, och icke skylldige förra för något, som icke"
+                        ],
+                        "scores": [
+                            0.920913663213394
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline2",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8641209602355957,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 718,
+                        "xmax": 3566,
+                        "ymax": 873
+                    },
+                    "polygon": "698,755 729,854 3566,873 3566,792 915,755 865,718"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "går emoot Konungens och Hädmaneslandzens wälfärdh doch alt denne kott, frijheet och incepredence, uppå Wår Wår"
+                        ],
+                        "scores": [
+                            0.9107115599599807
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline3",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8514180183410645,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 842,
+                        "xmax": 3566,
+                        "ymax": 1009
+                    },
+                    "polygon": "698,842 698,954 3566,1009 3566,879 3300,885 3219,842 3089,885 2823,842 2513,879 2426,842"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Person allena förstås, oförkränckt Abdicationen och de Articlar i Regementetz afträdet författade ähro: Men Wrerererere Worereren"
+                        ],
+                        "scores": [
+                            0.8402438432432155
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline4",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8845506906509399,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 941,
+                        "xmax": 3591,
+                        "ymax": 1108
+                    },
+                    "polygon": "698,941 698,1065 1887,1034 2377,1065 2445,1108 2550,1071 2662,1108 3554,1108 3591,1065 3542,1009"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "på Wår egendomb, således som här under förmählt warder"
+                        ],
+                        "scores": [
+                            0.9938931076309772
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline5",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8015959858894348,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 1040,
+                        "xmax": 2302,
+                        "ymax": 1208
+                    },
+                    "polygon": "698,1071 698,1177 1658,1170 1745,1208 1751,1183 1987,1152 2148,1183 2302,1170 2302,1090 2104,1071 2079,1040 1051,1040 1045,1065 1026,1040 785,1040 778,1065"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "2."
+                        ],
+                        "scores": [
+                            0.7767103237359098
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline6",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.29048824310302734,
+                    "bbox": {
+                        "xmin": 1937,
+                        "ymin": 1189,
+                        "xmax": 2079,
+                        "ymax": 1307
+                    },
+                    "polygon": "1937,1189 1937,1282 1993,1282 1999,1288 1999,1307 2017,1307 2017,1288 2024,1282 2042,1276 2055,1263 2079,1263 2079,1226 2061,1226 2055,1220 2055,1189"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Att Wij alldeles och i alla tijdher skola wara otilltalte och frija för all den skuldh som Wij och Rijket kunna Kuijkuijkuka"
+                        ],
+                        "scores": [
+                            0.931388352198118
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline7",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.9067023396492004,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 1214,
+                        "xmax": 3566,
+                        "ymax": 1387
+                    },
+                    "polygon": "698,1214 698,1375 3566,1387 3566,1270 3331,1214 1918,1282"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "af hwariehanda Orsak wara råkade uthi, och den komma Chronan till last och betalningh, effter som det))"
+                        ],
+                        "scores": [
+                            0.9449028762195356
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline8",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8927301168441772,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 1362,
+                        "xmax": 3566,
+                        "ymax": 1505
+                    },
+                    "polygon": "698,1362 698,1505 3566,1480 3566,1393 3492,1362 2346,1362 2302,1400 2197,1362"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "mögeligste skee kan och tijderne tillåthandes wärdhe, doch att samma skuldh, oalltadt hwadh författringar tringar  a se se se se se se se se"
+                        ],
+                        "scores": [
+                            0.7400266581478324
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline9",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8977506160736084,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 1462,
+                        "xmax": 3566,
+                        "ymax": 1598
+                    },
+                    "polygon": "723,1505 723,1592 3566,1598 3566,1517 1522,1499 1466,1462 1194,1499 1063,1462"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "dher å kunne gifwara, först pröfwar skiähligh och rättmätigh; Och änthå där någon kiändes för oskäl¬"
+                        ],
+                        "scores": [
+                            0.9505700943596017
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline10",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8784401416778564,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 1585,
+                        "xmax": 3566,
+                        "ymax": 1697
+                    },
+                    "polygon": "723,1585 723,1697 3566,1697 3529,1585"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "ligh, att Wij icke deste mindre, så derföre som all skiälligh skuldh, alldeles libereras och frijhollen hwarföre"
+                        ],
+                        "scores": [
+                            0.9748552439889705
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline11",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8790833353996277,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 1685,
+                        "xmax": 3542,
+                        "ymax": 1802
+                    },
+                    "polygon": "723,1685 723,1802 3542,1784 3517,1709 3436,1685"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "all Wår Ägendomb, hwadh nampn dhen hälst hafwa kan för alle arrester, oppehåldh och beswär inom Komme¬"
+                        ],
+                        "scores": [
+                            0.95841794805268
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline12",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8791295289993286,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 1784,
+                        "xmax": 3542,
+                        "ymax": 1951
+                    },
+                    "polygon": "723,1815 723,1901 1652,1877 2172,1951 2309,1914 2612,1951 3542,1926 3542,1821 2903,1784"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "gens och Rijkzens jurisdictionen skall frij wara."
+                        ],
+                        "scores": [
+                            0.9634205708856253
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline13",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8157455921173096,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 1883,
+                        "xmax": 2030,
+                        "ymax": 2050
+                    },
+                    "polygon": "698,1926 698,2025 816,2013 853,2050 1039,2050 1045,2025 1094,2013 1435,2013 1466,2050 1794,2050 1813,2019 2030,1982 2030,1920 1794,1926 1708,1908 1702,1883 964,1883 921,1920"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "3.en."
+                        ],
+                        "scores": [
+                            0.5820748840631539
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline14",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.28406623005867004,
+                    "bbox": {
+                        "xmin": 1887,
+                        "ymin": 1982,
+                        "xmax": 2079,
+                        "ymax": 2124
+                    },
+                    "polygon": "1887,1982 1887,2124 2030,2124 2030,2106 2042,2094 2055,2063 2061,2056 2079,2056 2079,2032 2061,2032 2055,2025 2055,1982"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Att Oß skola blifwa till ett nödhtorfftigt wederbörligit oppehålle, reserverade, effterfölliande länder, "
+                        ],
+                        "scores": [
+                            0.9636121374081378
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline15",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8707069158554077,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2081,
+                        "xmax": 3517,
+                        "ymax": 2248
+                    },
+                    "polygon": "723,2081 723,2193 927,2248 1305,2193 3517,2211 3517,2118 3467,2081 2941,2081 2866,2118 2563,2081 2024,2081 1949,2118 1838,2081"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Städer och lägenheeter, såsom Noreköpings Stadh och Slott medh alle dess tillhörigheeter som det nu detenenenenenenenene deteteterenerenetere"
+                        ],
+                        "scores": [
+                            0.721655209373691
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline16",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8675161600112915,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2205,
+                        "xmax": 3542,
+                        "ymax": 2348
+                    },
+                    "polygon": "723,2205 723,2317 1094,2348 1231,2310 1342,2348 1671,2304 1856,2348 2203,2304 2792,2348 3542,2310 3542,2205"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "ähr: Älandh medh Bornkholm, Gottlandh medh Wijsby Stadh och Slott; Dessföruthan blifwa Oß för Öss) ) 6)))))))) 6)))) 6)) 6) 6) 6)) "
+                        ],
+                        "scores": [
+                            0.7050531732999743
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline17",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8860011100769043,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2304,
+                        "xmax": 3566,
+                        "ymax": 2434
+                    },
+                    "polygon": "723,2304 723,2434 3566,2403 3535,2304"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "beholdne, Ösell medh Arensburgs Stadh och Slott, Pöhle och Nyeloster i Meellanburgh, Wolgast tillij¬"
+                        ],
+                        "scores": [
+                            0.9515509360993468
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline18",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.871222734451294,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2403,
+                        "xmax": 3566,
+                        "ymax": 2546
+                    },
+                    "polygon": "723,2440 723,2540 803,2546 3566,2540 3566,2403 2959,2403 2910,2440 2395,2403 2278,2447 1980,2403 1540,2403 1441,2447 1020,2403"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "ka medh Taffelagodzen i Pommern, hwilket landh, Stadh och Aupter Wij under Chronan och publicum p) p) p) p) p)"
+                        ],
+                        "scores": [
+                            0.8561941572413434
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline19",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8766858577728271,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 2502,
+                        "xmax": 3566,
+                        "ymax": 2639
+                    },
+                    "polygon": "3566,2552 3442,2502 3219,2540 698,2552 698,2639 3529,2614"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "igenkalla, och thed gemehne bästa tillägna, undantagandes, hwadh Strålsunderne innehafwa, och elliest"
+                        ],
+                        "scores": [
+                            0.9769759069809252
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline20",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8825064897537231,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2602,
+                        "xmax": 3542,
+                        "ymax": 2763
+                    },
+                    "polygon": "3542,2602 2761,2651 723,2651 723,2763 3461,2725 3542,2701"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Acavemien i Grijpzwaldh clonerat är. Uthi alle företalde platzer och lgärenheeter, skola Wij straxt Wyyy stra Wy st st s"
+                        ],
+                        "scores": [
+                            0.7762475775487406
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline21",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8960537314414978,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2701,
+                        "xmax": 3542,
+                        "ymax": 2849
+                    },
+                    "polygon": "3542,2701 3077,2750 723,2763 723,2849 3542,2818"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "widh affträdet ifrån Regementet, immitterade blifwa på effterfölliande sätt, nembligen att Wij då stoop ste så stå stå stå stå stå stå stå sta så sta "
+                        ],
+                        "scores": [
+                            0.8030556145216821
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline22",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.9010022878646851,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2825,
+                        "xmax": 3566,
+                        "ymax": 2992
+                    },
+                    "polygon": "723,2862 723,2961 1045,2948 1132,2992 1565,2942 2253,2948 2333,2992 2600,2942 3566,2948 3542,2825"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "skole föttias i possessionen af Norcköpings Stadh och Slott, Öhlandh medh Boockholms Slott Gottland Botta B) B) B) B) B)"
+                        ],
+                        "scores": [
+                            0.8277820574300034
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline23",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.9026765823364258,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 2948,
+                        "xmax": 3542,
+                        "ymax": 3079
+                    },
+                    "polygon": "723,2973 723,3079 3542,3041 3542,2948"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "medh Wisby stadh och Slott, Ösell medh Arensiburgz Stadh och Stott, Pöhle och Nya Closter i Mäke¬"
+                        ],
+                        "scores": [
+                            0.933779805935619
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline24",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.9119241833686829,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3048,
+                        "xmax": 3542,
+                        "ymax": 3215
+                    },
+                    "polygon": "723,3085 723,3165 865,3215 952,3159 3542,3153 3542,3048 946,3048"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "senburgh Wellgast medh alle de Taffeladz i Pommern som äre puri donationer: Men dhe Taffelgodz the the the the theta"
+                        ],
+                        "scores": [
+                            0.7985934752087972
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline25",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8934260606765747,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3147,
+                        "xmax": 3542,
+                        "ymax": 3271
+                    },
+                    "polygon": "723,3171 723,3271 3542,3252 3542,3147"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "som antingen förpantade, eller och som medh Wårt samtycke af en och annan Donatario köpte ähr"
+                        ],
+                        "scores": [
+                            0.9817016956751935
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline26",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8889643549919128,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3246,
+                        "xmax": 3504,
+                        "ymax": 3382
+                    },
+                    "polygon": "3504,3246 723,3283 723,3382 3312,3370 3467,3339"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "wela och måge Wij förr eij tillträda än hwar och een som dem besitter, för syne uthlagde penningar at för¬"
+                        ],
+                        "scores": [
+                            0.9570058487820278
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline27",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8857613205909729,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3345,
+                        "xmax": 3542,
+                        "ymax": 3481
+                    },
+                    "polygon": "3542,3345 723,3395 723,3481 3542,3450"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "mögdh och betaldh. Och på det ingen må skee något förnär, skola medh det första Commissarier"
+                        ],
+                        "scores": [
+                            0.9745049277050314
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline28",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8621488213539124,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3444,
+                        "xmax": 3517,
+                        "ymax": 3599
+                    },
+                    "polygon": "3517,3487 3473,3444 3269,3475 3052,3444 2736,3494 723,3494 723,3599 1522,3562 3139,3580 3517,3549"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "å Wåra och Rixens wegnar affärdiges till Pommern, där wederbörligen effter den gifne instruction, myc¬"
+                        ],
+                        "scores": [
+                            0.9424749762037862
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline29",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8673863410949707,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3568,
+                        "xmax": 3504,
+                        "ymax": 3735
+                    },
+                    "polygon": "3504,3661 3418,3568 1448,3568 1373,3605 958,3568 723,3605 723,3704 3473,3680 3424,3710 3467,3735"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "ge beskedh taga ransaka, och medh hwar och en som föresagde Toffelgodzen under hwadh titule det wara"
+                        ],
+                        "scores": [
+                            0.9701105874907414
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline30",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8793532848358154,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3642,
+                        "xmax": 3492,
+                        "ymax": 3822
+                    },
+                    "polygon": "3492,3642 3449,3686 909,3692 723,3723 723,3822 3349,3766 3492,3686"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "må innehafwer eller innehafft hafwer, räckningh göra och pröfwa skole, hwadh hans prætention och"
+                        ],
+                        "scores": [
+                            0.9850172321949351
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline31",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8456147909164429,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3766,
+                        "xmax": 3517,
+                        "ymax": 3903
+                    },
+                    "polygon": "3517,3766 989,3803 723,3834 723,3903 3517,3865"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "fordringh för godzens förbättringh, panthinlösningh, kööp eller elliest uthlagde penningar, som fördeligen be¬"
+                        ],
+                        "scores": [
+                            0.962196404877
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline32",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8260985612869263,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 3865,
+                        "xmax": 3542,
+                        "ymax": 4033
+                    },
+                    "polygon": "3542,3865 698,3915 698,4033 3542,3958"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "finnes kan, doch så att hans kärl:tt Wår Successer och Rixens Rådh revisionen förbehålles, öfwer det fan"
+                        ],
+                        "scores": [
+                            0.9681300760166357
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline33",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.816748857498169,
+                    "bbox": {
+                        "xmin": 723,
+                        "ymin": 3964,
+                        "xmax": 3542,
+                        "ymax": 4157
+                    },
+                    "polygon": "3542,3964 723,4039 723,4157 1423,4101 3542,4076"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "en och annan i detta fallet kunne förmana sigh wara förmår skedt, effter hwilkes ändtelige befinna¬"
+                        ],
+                        "scores": [
+                            0.9584156377553781
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline34",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.7985687851905823,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 4064,
+                        "xmax": 3542,
+                        "ymax": 4237
+                    },
+                    "polygon": "3542,4064 3120,4064 2872,4113 698,4157 698,4237 3542,4194"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "de och resolutioner, hwar och en af Konungen och Rijket således pokall warda förnöijdh, som det rättwijst,"
+                        ],
+                        "scores": [
+                            0.9510675207980452
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline35",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8462285995483398,
+                    "bbox": {
+                        "xmin": 698,
+                        "ymin": 4194,
+                        "xmax": 3566,
+                        "ymax": 4373
+                    },
+                    "polygon": "3566,4194 698,4249 698,4373 2191,4367 3349,4299 3566,4318"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "skähligit"
+                        ],
+                        "scores": [
+                            0.989867823167466
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion0_textline36",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.7908065915107727,
+                    "bbox": {
+                        "xmin": 3250,
+                        "ymin": 4311,
+                        "xmax": 3517,
+                        "ymax": 4466
+                    },
+                    "polygon": "3250,4311 3250,4466 3442,4466 3449,4454 3467,4454 3492,4442 3517,4442 3517,4311"
+                }
+            ],
+            "segmentation_label": "textregion",
+            "segmentation_confidence": 0.9519557356834412,
+            "bbox": {
+                "xmin": 686,
+                "ymin": 508,
+                "xmax": 3609,
+                "ymax": 4473
+            },
+            "polygon": "686,508 686,4473 3609,4473 3609,508"
+        },
+        {
+            "label": "R0001308_00004_textregion1",
+            "contains": [
+                {
+                    "text_result": {
+                        "texts": [
+                            "kaleligit och tilldrägeligit är, både för Rijket så wäl som för dem sielfwa, hwilka Patrimoriale Godzen mera"
+                        ],
+                        "scores": [
+                            0.9485001105718226
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline0",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8829113841056824,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 461,
+                        "xmax": 6758,
+                        "ymax": 664
+                    },
+                    "polygon": "3896,664 6758,568 6758,472 5013,461 4368,538 3974,520 3896,538"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "hafft hafwa. Hwadh Afwel i bostap, fåår och annat sådant widhkommer, som hwar och en på Godzen han"
+                        ],
+                        "scores": [
+                            0.9613717121635551
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline1",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8895001411437988,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 568,
+                        "xmax": 6758,
+                        "ymax": 783
+                    },
+                    "polygon": "6758,568 3896,676 3896,783 6758,687"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "här till besuthit hafwer ägher, dherom skall han effter egen godtyckio må disponera, och förtenskull ingene)))))))))))))))))))))"
+                        ],
+                        "scores": [
+                            0.8019204293335377
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline2",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8994250297546387,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 664,
+                        "xmax": 6758,
+                        "ymax": 885
+                    },
+                    "polygon": "6758,717 6351,664 6238,717 3896,795 3896,885 6758,783"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "fråntaghes, uthan det skeer medh kööp, wanligh förlijkningh och ägenderas nöje. Men där Donatarium "
+                        ],
+                        "scores": [
+                            0.9300637150307511
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline3",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.9027061462402344,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 783,
+                        "xmax": 6758,
+                        "ymax": 1004
+                    },
+                    "polygon": "6758,783 3896,891 3896,1004 6758,891"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "en eller flere, deras afwel wille försellia, då pikale dhe wara förbligerade, Oß sådant framför någon an¬"
+                        ],
+                        "scores": [
+                            0.9187740586850018
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline4",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.908179521560669,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 879,
+                        "xmax": 6758,
+                        "ymax": 1106
+                    },
+                    "polygon": "6758,909 6423,879 6118,926 3896,1022 3896,1106 6758,1004"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "nen till kiöps och för richtigh betalningh att uplåtha, efftersom wärdet och Marckningen där kan wara"
+                        ],
+                        "scores": [
+                            0.9722595935167399
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline5",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8521901369094849,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 998,
+                        "xmax": 6758,
+                        "ymax": 1207
+                    },
+                    "polygon": "6758,1022 6208,998 3896,1124 3896,1207 6758,1106"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Alldenstundh det samma på godzen som Donatarierne förmedelß Wår gunst och nådhe här till nuthet"
+                        ],
+                        "scores": [
+                            0.9640236399382985
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline6",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8368122577667236,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 1094,
+                        "xmax": 6758,
+                        "ymax": 1309
+                    },
+                    "polygon": "6758,1118 6405,1094 6256,1135 4637,1213 3896,1213 3896,1309 6638,1231 6758,1201"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "hafwe, största deelen tillökt och förkofradt är.."
+                        ],
+                        "scores": [
+                            0.9180097426190204
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline7",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8590191602706909,
+                    "bbox": {
+                        "xmin": 3872,
+                        "ymin": 1261,
+                        "xmax": 5372,
+                        "ymax": 1446
+                    },
+                    "polygon": "5372,1261 5276,1261 5252,1291 5139,1285 5133,1261 4906,1261 4864,1303 4703,1303 4655,1261 4649,1285 4452,1321 4237,1303 4082,1339 3980,1315 3872,1339 3872,1446 4249,1416 4721,1422 4834,1398 4942,1410 5067,1374 5288,1374 5372,1357"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Undersåterne i deße för uptaldhe länder och Städer, skola widh Wårt tillträdande, göra Oß deras trooheetz"
+                        ],
+                        "scores": [
+                            0.9695947808231771
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline8",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8926872611045837,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 1404,
+                        "xmax": 6758,
+                        "ymax": 1625
+                    },
+                    "polygon": "6758,1404 5109,1440 4978,1488 4344,1518 4111,1482 3896,1530 3896,1625 6758,1536"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Eedh, som fölliande formular den inneholler: Hwilken i de Swenska Provincierne skall observeras och i"
+                        ],
+                        "scores": [
+                            0.9705380092396176
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline9",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8838682770729065,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 1524,
+                        "xmax": 6734,
+                        "ymax": 1781
+                    },
+                    "polygon": "6734,1524 3896,1637 3896,1781 5378,1661 5724,1691 6734,1643"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "acht tagas, men på Ösell effter Landzens bruuk och förre wahna."
+                        ],
+                        "scores": [
+                            0.9823034453001014
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline10",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8932002186775208,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 1667,
+                        "xmax": 5706,
+                        "ymax": 1870
+                    },
+                    "polygon": "5706,1709 5623,1667 5557,1697 5479,1697 5461,1667 5294,1667 5288,1691 5127,1667 5103,1697 4972,1715 4822,1697 4392,1763 4064,1751 3896,1769 3896,1864 4392,1870 4978,1805 5706,1787"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Wij underskrifne Göra witterligit, att såsom Hennes Kongl. Maij:tt den Stormechtigste Furstinna ))))))))))))))"
+                        ],
+                        "scores": [
+                            0.7867364710590606
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline11",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8777715563774109,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 1834,
+                        "xmax": 6781,
+                        "ymax": 2073
+                    },
+                    "polygon": "6781,1888 6644,1834 6262,1834 6220,1876 5885,1834 5635,1900 5282,1876 4655,1954 4368,1918 4183,1960 4064,1912 3896,1972 3896,2073 5945,1972 6339,1996 6781,1966"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "och huus, fru Ehr RySS G B NA medh Gudz nådhe, Sweriges, Göthes och Bondes Drottningh, Storhurstin¬"
+                        ],
+                        "scores": [
+                            0.8393411096736458
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline12",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8616562485694885,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 1954,
+                        "xmax": 6805,
+                        "ymax": 2211
+                    },
+                    "polygon": "6805,1984 6441,1954 6351,2008 5957,1978 5449,2043 4374,2049 3896,2097 3896,2181 4135,2211 4906,2139 6805,2079"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "na till Hinlandh, Hartiginen uthi Estlandh, Caralen, Brahman, Utehrden Stattijn Pomern, Caßuban afssubansen"
+                        ],
+                        "scores": [
+                            0.822596448030698
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline13",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.866924524307251,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 2073,
+                        "xmax": 6758,
+                        "ymax": 2282
+                    },
+                    "polygon": "6758,2103 6543,2073 6483,2115 3896,2205 3896,2282 6758,2199"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Wanden, Furstinna till Reijgen, Frw öfwer Ingermanlandh och Wißmarp Hafwer allernådigt behaghat ber) ber) ber) ber) be benger) b"
+                        ],
+                        "scores": [
+                            0.7213299283378652
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline14",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8964256644248962,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 2193,
+                        "xmax": 6758,
+                        "ymax": 2402
+                    },
+                    "polygon": "6758,2193 6220,2235 6065,2193 6017,2235 4446,2306 3896,2294 3896,2402 6758,2306"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Rijket och Regementet att affträda, och Hans Maij:tt för detta Sweriges Rijkes Arfsursta och nu mehr"
+                        ],
+                        "scores": [
+                            0.9580445635647071
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline15",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8587731719017029,
+                    "bbox": {
+                        "xmin": 3896,
+                        "ymin": 2312,
+                        "xmax": 6758,
+                        "ymax": 2533
+                    },
+                    "polygon": "6758,2312 3896,2414 3896,2533 6758,2408"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "alles wår nådigste Konungh och Herre att opdragha, då högstb.te Hennes Kongl. Maij:ts i dess lijfzte  : : : : :"
+                        ],
+                        "scores": [
+                            0.8305254296234577
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline16",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8674148917198181,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 2408,
+                        "xmax": 6758,
+                        "ymax": 2617
+                    },
+                    "polygon": "6758,2408 3920,2545 3920,2617 6758,2527"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "till Kongl. underböldh behållit hafwer N. N. hwilket af Hans Kongl. Maij:ts sampt Rixens Rådh och"
+                        ],
+                        "scores": [
+                            0.9361623399248113
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline17",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8972898721694946,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 2503,
+                        "xmax": 6734,
+                        "ymax": 2760
+                    },
+                    "polygon": "6734,2545 6560,2503 6166,2563 3920,2629 3920,2718 4159,2760 4237,2718 6734,2641"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "samptlige Ständer samtyckt, försäkrat och inrymbdt är, att nyttia och bruka som derom oprättade"
+                        ],
+                        "scores": [
+                            0.9835967393769505
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline18",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8699676990509033,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 2647,
+                        "xmax": 6758,
+                        "ymax": 2850
+                    },
+                    "polygon": "6758,2647 3920,2736 3920,2850 6758,2742"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "resen och Rixders Besluthet inneholler, och hennes Kongl. Maij:tz Wår allernådigste Drottning"
+                        ],
+                        "scores": [
+                            0.940441577228648
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline19",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8943241834640503,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 2742,
+                        "xmax": 6758,
+                        "ymax": 2951
+                    },
+                    "polygon": "6758,2742 4565,2856 4034,2844 3920,2856 3920,2951 6758,2856"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Fullmechtige nu å H:us Maijtz wägnar begära och fordra Wår skylldige trohentzEedh: Dherföre Dherföre:e"
+                        ],
+                        "scores": [
+                            0.88238931448864
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline20",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8984219431877136,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 2838,
+                        "xmax": 6758,
+                        "ymax": 3095
+                    },
+                    "polygon": "6758,2868 6656,2838 5838,2916 3920,2981 3920,3059 4171,3095 4249,3053 6758,2957"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "lofwa och förplichte Wij Oß, Wåre Medhbröder som hemma ähre, och Wåre effterkommande medh Gudh ) ) ) ) ) ) )) ) "
+                        ],
+                        "scores": [
+                            0.785260597923209
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline21",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8646788001060486,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 2963,
+                        "xmax": 6758,
+                        "ymax": 3166
+                    },
+                    "polygon": "6758,2963 5856,3029 3920,3071 3920,3166 6758,3077"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "och hans helzige Evangelium att wela och skola /: oförkränckt den Eedh Wij Konungen och Rijket med ete"
+                        ],
+                        "scores": [
+                            0.9209644219293236
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline22",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8610836267471313,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 3083,
+                        "xmax": 6758,
+                        "ymax": 3286
+                    },
+                    "polygon": "6758,3083 3920,3190 3920,3286 6758,3184"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "förbundne äre :/ så länge Gudh H:ns Maij:ts lijfztijden förlähnandes warder, förblifwa och wara hennes"
+                        ],
+                        "scores": [
+                            0.96604821683724
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline23",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8993893265724182,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 3172,
+                        "xmax": 6758,
+                        "ymax": 3382
+                    },
+                    "polygon": "6758,3172 3920,3298 3920,3382 6758,3286"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "Kongl. M:tz Guldhe, trogne och rättrådige undersåthare, skada och fördröf där wij förnimme å färde"
+                        ],
+                        "scores": [
+                            0.9414855511686313
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline24",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8453482389450073,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 3292,
+                        "xmax": 6829,
+                        "ymax": 3525
+                    },
+                    "polygon": "3920,3483 4147,3525 4452,3465 6829,3405 6829,3292 3920,3393 3920,3292"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "wahra, i tijdh optänkia och effter wår ytterstemacht och förmågo afräijadhennes M:tz Gudh och lydno stånda"
+                        ],
+                        "scores": [
+                            0.9443448699973579
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline25",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8377832174301147,
+                    "bbox": {
+                        "xmin": 3920,
+                        "ymin": 3411,
+                        "xmax": 6758,
+                        "ymax": 3597
+                    },
+                    "polygon": "6758,3411 3920,3513 3920,3597 6758,3537"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "i allo thy förswarligit är både för Gudhi och Mannom, hennes Kongl. M:tt att biudha och Oß att gör"
+                        ],
+                        "scores": [
+                            0.9533789781258908
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline26",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8062026500701904,
+                    "bbox": {
+                        "xmin": 3944,
+                        "ymin": 3531,
+                        "xmax": 6758,
+                        "ymax": 3740
+                    },
+                    "polygon": "6758,3561 5885,3531 5826,3573 4064,3597 3944,3614 3944,3692 4255,3740 4458,3692 6758,3644"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "som och att wela och skola uthan tresko, åhrligen och i rättan tijdh uthgöhra till H:s K. M:tt effter Wår Ware W W Wa Wa "
+                        ],
+                        "scores": [
+                            0.836787882187796
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline27",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8678389191627502,
+                    "bbox": {
+                        "xmin": 3992,
+                        "ymin": 3662,
+                        "xmax": 6805,
+                        "ymax": 3824
+                    },
+                    "polygon": "6805,3662 3992,3704 3992,3806 4798,3824 6805,3740"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "ästa macht och förmågo wåre Åhrlige uthlaghor och uthskylder, som hennes Kongl. M:t tillkomma  t) t) "
+                        ],
+                        "scores": [
+                            0.8493545745894915
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline28",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8688635230064392,
+                    "bbox": {
+                        "xmin": 3992,
+                        "ymin": 3746,
+                        "xmax": 6829,
+                        "ymax": 3919
+                    },
+                    "polygon": "6829,3794 6686,3746 6196,3746 6101,3788 6011,3746 5885,3800 4822,3835 3992,3818 3992,3919 6793,3853"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "och till de Orther inom Laghsagas föra, som Öß befallit warder. I een Summa, emoot Hennes Kongl Kongan Kongngngngngengengengengen"
+                        ],
+                        "scores": [
+                            0.7344953422655361
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline29",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8675389289855957,
+                    "bbox": {
+                        "xmin": 3944,
+                        "ymin": 3841,
+                        "xmax": 6758,
+                        "ymax": 4021
+                    },
+                    "polygon": "6758,3871 6537,3841 6477,3883 4948,3937 3944,3931 3944,4021 6758,3985"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "M:t Oß således förholla som trogne, redelige undersåt hare egnar och bör, och Wij Oß, emoot H:s Kongl.:s Kong)"
+                        ],
+                        "scores": [
+                            0.9009702682240994
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline30",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8010512590408325,
+                    "bbox": {
+                        "xmin": 3944,
+                        "ymin": 3961,
+                        "xmax": 6758,
+                        "ymax": 4122
+                    },
+                    "polygon": "6758,3991 6429,3961 6375,3997 5139,4039 3944,4027 3944,4122 6758,4110"
+                },
+                {
+                    "text_result": {
+                        "texts": [
+                            "här till förhullit hafwe: Så sant Oß Gudh hielpe till Lijff och Siäl."
+                        ],
+                        "scores": [
+                            0.962959829427375
+                        ]
+                    },
+                    "label": "R0001308_00004_textregion1_textline31",
+                    "segmentation_label": "textline",
+                    "segmentation_confidence": 0.8697190284729004,
+                    "bbox": {
+                        "xmin": 3944,
+                        "ymin": 4080,
+                        "xmax": 6089,
+                        "ymax": 4278
+                    },
+                    "polygon": "6089,4128 5826,4080 5784,4110 3944,4140 3944,4242 4171,4278 4852,4242 4995,4266 5109,4224 5258,4260 5521,4218 5856,4242 6047,4212 6089,4182"
+                }
+            ],
+            "segmentation_label": "textregion",
+            "segmentation_confidence": 0.94717937707901,
+            "bbox": {
+                "xmin": 3858,
+                "ymin": 461,
+                "xmax": 6876,
+                "ymax": 4284
+            },
+            "polygon": "3858,461 3858,4284 6876,4284 6876,461"
+        }
+    ],
+    "height": 5048,
+    "width": 7575,
+    "processing_steps": [
+        {
+            "description": "Segmentation",
+            "settings": {
+                "model_class": "YOLO",
+                "model": "Riksarkivet/yolov9-regions-1",
+                "model_version": "6fb01d223f39ac325280d99e4a2d1804694e5e99"
+            }
+        },
+        {
+            "description": "Segmentation",
+            "settings": {
+                "model_class": "YOLO",
+                "model": "Riksarkivet/yolov9-lines-within-regions-1",
+                "model_version": "f62260d9ae6e782c43c3fd789b7d7e19d64608d9"
+            }
+        },
+        {
+            "description": "TextRecognition",
+            "settings": {
+                "model_class": "TrOCR",
+                "model": "/mnt/work/models/swedish-lion-2026/tokenlevel-large-0e405be/epoch=6-step=116662-validation_loss=0.0956-cer=0.0393",
+                "model_version": null,
+                "processor": "/mnt/work/models/swedish-lion-2026/tokenlevel-large-0e405be/epoch=6-step=116662-validation_loss=0.0956-cer=0.0393",
+                "processor_version": null
+            }
+        }
+    ]
+}
