@@ -21,6 +21,7 @@ classifiers = [
 
 [project.scripts]
 htr-eval = "htr_evaluation.cli:main"
+htrflow-page-eval = "htr_evaluation.cli:main"
 
 [tool.setuptools]
 packages = ["htr_evaluation"]
