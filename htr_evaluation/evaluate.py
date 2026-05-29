@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
+from .htrflow import extract_text_from_htrflow_json
 from .metrics import bow_details, cer_details
 from .parsers import detect_xml_format, extract_text
 
@@ -38,20 +39,21 @@ class AggregateMetrics:
     bow_false_negative: int
 
 
-def evaluate_pair(prediction_file: str | Path, gt_file: str | Path) -> PageMetrics:
-    pred_format = detect_xml_format(prediction_file)
-    gt_format = detect_xml_format(gt_file)
-    xml_format = pred_format if pred_format == gt_format else f"{pred_format}_vs_{gt_format}"
-
-    pred_text = extract_text(prediction_file)
-    gt_text = extract_text(gt_file)
-
+def _evaluate_texts(
+    *,
+    pred_text: str,
+    gt_text: str,
+    stem: str,
+    input_format: str,
+    prediction_file: str | Path,
+    gt_file: str | Path,
+) -> PageMetrics:
     cer, distance, gt_chars = cer_details(pred_text, gt_text)
     precision, recall, f1, tp, fp, fn = bow_details(pred_text, gt_text)
 
     return PageMetrics(
-        stem=Path(prediction_file).stem,
-        xml_format=xml_format,
+        stem=stem,
+        xml_format=input_format,
         prediction_file=str(prediction_file),
         gt_file=str(gt_file),
         cer=cer,
@@ -63,6 +65,37 @@ def evaluate_pair(prediction_file: str | Path, gt_file: str | Path) -> PageMetri
         bow_true_positive=tp,
         bow_false_positive=fp,
         bow_false_negative=fn,
+    )
+
+
+def evaluate_pair(prediction_file: str | Path, gt_file: str | Path) -> PageMetrics:
+    pred_format = detect_xml_format(prediction_file)
+    gt_format = detect_xml_format(gt_file)
+    xml_format = pred_format if pred_format == gt_format else f"{pred_format}_vs_{gt_format}"
+
+    return _evaluate_texts(
+        pred_text=extract_text(prediction_file),
+        gt_text=extract_text(gt_file),
+        stem=Path(prediction_file).stem,
+        input_format=xml_format,
+        prediction_file=prediction_file,
+        gt_file=gt_file,
+    )
+
+
+def evaluate_htrflow_page(prediction_json: str | Path, gt_page_file: str | Path) -> PageMetrics:
+    """Evaluate a full-page HTRFlow JSON prediction against PAGE XML ground truth."""
+    gt_format = detect_xml_format(gt_page_file)
+    if gt_format != "page":
+        raise ValueError(f"Expected PAGE XML ground truth, got {gt_format!r}: {gt_page_file}")
+
+    return _evaluate_texts(
+        pred_text=extract_text_from_htrflow_json(prediction_json),
+        gt_text=extract_text(gt_page_file),
+        stem=Path(prediction_json).stem,
+        input_format="htrflow_json_vs_page",
+        prediction_file=prediction_json,
+        gt_file=gt_page_file,
     )
 
 
