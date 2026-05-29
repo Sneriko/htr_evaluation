@@ -32,6 +32,11 @@ def build_parser() -> argparse.ArgumentParser:
         default=2,
         help="JSON indentation for output (default: 2)",
     )
+    parser.add_argument(
+        "--output-file",
+        "-o",
+        help="Write JSON output to this file instead of printing it to stdout",
+    )
 
     return parser
 
@@ -63,7 +68,13 @@ def main() -> None:
             "--pred-htrflow-json with --gt-page-file."
         )
 
-    print(json.dumps(result, indent=args.indent, ensure_ascii=False))
+    output_json = json.dumps(result, indent=args.indent, ensure_ascii=False)
+    if args.output_file:
+        with open(args.output_file, "w", encoding="utf-8") as output_file:
+            output_file.write(output_json)
+            output_file.write("\n")
+    else:
+        print(output_json)
 
 
 if __name__ == "__main__":
