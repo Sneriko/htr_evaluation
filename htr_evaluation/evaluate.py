@@ -23,6 +23,8 @@ class PageMetrics:
     bow_true_positive: int
     bow_false_positive: int
     bow_false_negative: int
+    relative_stem: str | None = None
+    subfolder: str = "."
 
 
 @dataclass
@@ -100,18 +102,19 @@ def evaluate_htrflow_page(prediction_json: str | Path, gt_page_file: str | Path)
 
 
 def _index_xml_files(directory: str | Path) -> dict[str, dict[str, Path]]:
-    files = sorted(Path(directory).rglob("*.xml"))
+    root = Path(directory)
+    files = sorted(root.rglob("*.xml"))
     indexed: dict[str, dict[str, Path]] = {}
 
     for path in files:
-        stem = path.stem
+        relative_stem = path.relative_to(root).with_suffix("").as_posix()
         xml_format = detect_xml_format(path)
-        stem_bucket = indexed.setdefault(stem, {})
+        stem_bucket = indexed.setdefault(relative_stem, {})
 
         if xml_format in stem_bucket:
             raise ValueError(
-                f"Duplicate stem/format detected for '{stem}' ({xml_format}): "
-                f"{stem_bucket[xml_format]} and {path}"
+                f"Duplicate relative path/format detected for '{relative_stem}' "
+                f"({xml_format}): {stem_bucket[xml_format]} and {path}"
             )
         stem_bucket[xml_format] = path
 
@@ -127,50 +130,20 @@ def _resolve_pair(stem: str, pred_variants: dict[str, Path], gt_variants: dict[s
     return None
 
 
-def evaluate_folders(prediction_dir: str | Path, gt_dir: str | Path) -> dict[str, object]:
-    pred_files = _index_xml_files(prediction_dir)
-    gt_files = _index_xml_files(gt_dir)
-
-    common_stems = sorted(set(pred_files) & set(gt_files))
-    if not common_stems:
-        raise ValueError("No matching XML file stems were found between prediction_dir and gt_dir.")
-
-    per_page: list[PageMetrics] = []
-    format_mismatches: list[str] = []
-
-    total_distance = 0
-    total_gt_chars = 0
-    total_tp = total_fp = total_fn = 0
-
-    for stem in common_stems:
-        resolved = _resolve_pair(stem, pred_files[stem], gt_files[stem])
-        if resolved is None:
-            format_mismatches.append(stem)
-            continue
-
-        xml_format, pred_path, gt_path = resolved
-        page = evaluate_pair(pred_path, gt_path)
-        page.xml_format = xml_format
-        per_page.append(page)
-
-        total_distance += page.edit_distance
-        total_gt_chars += page.gt_char_count
-        total_tp += page.bow_true_positive
-        total_fp += page.bow_false_positive
-        total_fn += page.bow_false_negative
-
-    if not per_page:
-        raise ValueError(
-            "No matching prediction/ground-truth pairs with compatible XML format were found."
-        )
+def _aggregate_pages(pages: list[PageMetrics]) -> AggregateMetrics:
+    total_distance = sum(page.edit_distance for page in pages)
+    total_gt_chars = sum(page.gt_char_count for page in pages)
+    total_tp = sum(page.bow_true_positive for page in pages)
+    total_fp = sum(page.bow_false_positive for page in pages)
+    total_fn = sum(page.bow_false_negative for page in pages)
 
     cer = total_distance / total_gt_chars if total_gt_chars > 0 else 0.0
     precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
     recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
     f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
 
-    aggregate = AggregateMetrics(
-        pair_count=len(per_page),
+    return AggregateMetrics(
+        pair_count=len(pages),
         cer=cer,
         edit_distance=total_distance,
         gt_char_count=total_gt_chars,
@@ -182,8 +155,59 @@ def evaluate_folders(prediction_dir: str | Path, gt_dir: str | Path) -> dict[str
         bow_false_negative=total_fn,
     )
 
+
+def _subfolder_for_relative_stem(relative_stem: str) -> str:
+    parent = Path(relative_stem).parent.as_posix()
+    return parent if parent != "." else "."
+
+
+def evaluate_folders(prediction_dir: str | Path, gt_dir: str | Path) -> dict[str, object]:
+    pred_files = _index_xml_files(prediction_dir)
+    gt_files = _index_xml_files(gt_dir)
+
+    common_stems = sorted(set(pred_files) & set(gt_files))
+    if not common_stems:
+        raise ValueError(
+            "No matching XML file relative paths were found between prediction_dir and gt_dir."
+        )
+
+    per_page: list[PageMetrics] = []
+    format_mismatches: list[str] = []
+
+    for relative_stem in common_stems:
+        resolved = _resolve_pair(
+            relative_stem, pred_files[relative_stem], gt_files[relative_stem]
+        )
+        if resolved is None:
+            format_mismatches.append(relative_stem)
+            continue
+
+        xml_format, pred_path, gt_path = resolved
+        page = evaluate_pair(pred_path, gt_path)
+        page.xml_format = xml_format
+        page.relative_stem = relative_stem
+        page.subfolder = _subfolder_for_relative_stem(relative_stem)
+        per_page.append(page)
+
+    if not per_page:
+        raise ValueError(
+            "No matching prediction/ground-truth pairs with compatible XML format were found."
+        )
+
+    subfolder_names = sorted({page.subfolder for page in per_page})
+    per_subfolder = [
+        {
+            "subfolder": subfolder,
+            "aggregate": asdict(
+                _aggregate_pages([page for page in per_page if page.subfolder == subfolder])
+            ),
+        }
+        for subfolder in subfolder_names
+    ]
+
     return {
-        "aggregate": asdict(aggregate),
+        "aggregate": asdict(_aggregate_pages(per_page)),
+        "per_subfolder": per_subfolder,
         "per_page": [asdict(p) for p in per_page],
         "format_mismatches": format_mismatches,
         "missing_predictions": sorted(set(gt_files) - set(pred_files)),
